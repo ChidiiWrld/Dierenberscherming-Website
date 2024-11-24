@@ -1,0 +1,136 @@
+/* Algemene instellingen */
+body {
+    font-family: 'Charis SIL', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #004d40; /* Teal voor header */
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero sectie */
+.hero {
+    background-color: #00796b; /* Teal achtergrond */
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background-color: #004d40; /* Donker teal */
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+.hero .btn:hover {
+    background-color: #00332e; /* Donkerder teal bij hover */
+}
+
+/* Over Ons sectie */
+.about {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: #f1f1f1;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+}
+
+.about .btn {
+    background-color: #00796b; /* Teal voor de knop */
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+.about .btn:hover {
+    background-color: #004d40; /* Donkerder teal bij hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}

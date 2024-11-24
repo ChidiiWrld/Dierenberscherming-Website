@@ -1,0 +1,143 @@
+/* Algemene instellingen */
+body {
+    font-family: 'Charis SIL', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #004d40; /* Teal voor header */
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact sectie */
+.contact {
+    background-color: #00796b; /* Teal als achtergrondkleur voor de sectie */
+    color: #fff;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact p {
+    font-size: 1.25rem;
+    color: #f1f1f1;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #004d40; /* Focuskleur teal */
+    outline: none;
+}
+
+button {
+    background-color: #004d40;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00332e; /* Donkerder teal voor hover effect */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
